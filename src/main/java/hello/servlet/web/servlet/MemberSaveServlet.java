@@ -29,6 +29,7 @@ public class MemberSaveServlet extends HttpServlet {
     response.setContentType("text/html");
     response.setCharacterEncoding("utf-8");
     PrintWriter w = response.getWriter();
+    // 동적으로 들어간 html 코드
     w.write("<html>\n" +
         "<head>\n" +
         " <meta charset=\"UTF-8\">\n" +
